@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment & secrets
+.env
+
+# OS files
+.DS_Store
+
+# Jupyter (if any)
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+service_account.json
+.env
+.DS_Store
+
+
+service.json
+service_account.json
+.env
+*.env

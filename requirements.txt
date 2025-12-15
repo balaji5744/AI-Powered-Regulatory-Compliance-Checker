@@ -1,0 +1,36 @@
+# Core
+python-dotenv
+pandas
+numpy
+
+# PDF processing
+PyPDF2
+pymupdf   # optional, for faster PDF parsing (fitz)
+
+# Google Sheets integration
+gspread
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# LLM & AI
+groq
+langchain
+langchain-community
+sentence-transformers   # for embeddings if needed
+
+# Web UI
+streamlit
+plotly
+
+# Utils
+tqdm
+
+
+pygsheets
+pypdf
+reportlab
+
+yagmail
+feedparser
+kaleido
