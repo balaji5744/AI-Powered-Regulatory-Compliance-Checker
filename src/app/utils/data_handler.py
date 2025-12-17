@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_experimental.text_splitter import SemanticChunker
 
+
 def connect_sheet():
     load_dotenv()
     creds_path = os.getenv("GOOGLE_SHEET_API_CRED")

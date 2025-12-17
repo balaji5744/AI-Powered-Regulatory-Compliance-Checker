@@ -33,3 +33,4 @@ def generate_rewritten_pdf(df):
     doc.build(story)
     buffer.seek(0)
     return buffer.getvalue()
+

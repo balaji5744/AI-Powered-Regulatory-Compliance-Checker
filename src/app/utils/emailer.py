@@ -2,6 +2,7 @@ import yagmail
 import os
 
 
+
 def send_compliance_report(to_email: str, subject: str, summary_text: str, attachment_path: str = None, chart_path: str = None):
     """
     Sends a compliance report email with optional PDF attachment and inline chart.

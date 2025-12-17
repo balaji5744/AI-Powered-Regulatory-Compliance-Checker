@@ -7,13 +7,14 @@ from groq.types.chat.chat_completion import ChatCompletion
 from .config import MODEL_CONFIG, MODEL_PREFERENCE_ORDER
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+
 def get_preferred_model_and_config():
     for model_name in MODEL_PREFERENCE_ORDER:
         config = MODEL_CONFIG.get(model_name)
         if config:
             try:
                 if config["provider"] == "groq":
-                    api_key = os.getenv("GROQ_API_KEY")
+                    api_key =os.getenv("GROQ_API_KEY")
                     if not api_key:
                         print(f"❌ GROQ_API_KEY not found. Skipping {model_name}.")
                         continue
